@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>百度一下，你就知道</title>
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/baidu3.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class=" flex-item11 ">
+                <ul class="nav nav-pills" " id="nav1 ">
+                <li class="dropdown " ><a class="dropdown-toggle " data-toggle="dropdown " href="# ">广州:15&#8451<font color="greenyellow "><strong>良</strong></font></a> </li>
+            <li class="huanfu "><a href="https://www.baidu.com/# ">宝箱</a></li>
+              <li class="huanfu "><a href="https://www.baidu.com/# ">换肤</a></li>
+                <li class="huanfu "><a href="https://www.baidu.com/# ">消息</a></li>
+            </ul>
+
+
+      </div><!-- div item11 -->
+
+        <div class="flex-item12 " >
+
+          
+           <ul class="nav nav-pills " > 
+     
+                
+                <li class="huanfu "> <a href="http://www.nuomi.com/?cid=002540 ">糯米</a></li>
+                <li class="huanfu "><a href="http://news.baidu.com/ ">新闻</a></li>
+                <li class="huanfu "><a href="http://www.hao123.com/ ">hao123</a></li>
+                <li class="huanfu "> <a href="http://map.baidu.com/ ">地图</a></li>
+                <li class="huanfu "> <a href="http://v.baidu.com/ ">视频</a></li>
+                <li class="huanfu "><a href="http://tieba.baidu.com/ ">贴吧</a></li>
+
+                <li class="dropdown ">
+                    <a class="dropdown-toggle " data-toggle="dropdown " href="http://i.baidu.com/ "><u>lanmeinvha</u><span class="caret "></span></a>
+                    <ul class="dropdown-menu ">
+                        <li class="huanfu "><a href=" "> 我的VIP</a></li>
+                        <li class="huanfu "><a href=" "> 个人中心</a></li>
+                        <li class="huanfu "><a href=" "> 账号设置</a></li>
+                        <li class="huanfu "><a href=" "> 意见反馈</a></li>
+                        <li class="huanfu "><a href=" "> 退出</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown "> <a class="dropdown-toggle " data-toggle="dropdown " href="javascript:; ">设置<span class="caret "></span></a>
+                    <ul class="dropdown-menu ">
+                        <li ><a href=" "> 搜索设置</a></li>
+                        <li><a href=" "> 高级设置</a></li>
+                        <li><a href=" "> 关闭预测</a></li>
+                        <li><a href=" "> 搜索历史</a></li>
+                    </ul>
+                </li>
+                <li class="active " class="dropdown " >
+                    <a class="dropdown-toggle " data-toggle="dropdown " href=" "><span bgcolor="blue " >更多产品</span>
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li>
+                            <a href=" "> <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/music.png?v=md5 " alt=" ">
+                                <p>音乐</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" "><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/image.png?v=md5 " alt=" ">
+                                <p>图片</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" "><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/zhidao.png?v=md5 " alt=" ">
+                                <p>知道</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" "><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/wenku.png?v=md5 " alt=" ">
+                                <p>文库</p>
+                            </a>
+                        </li>
+                        <li align="left "><a href=" "><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/bang.png?v=md5 " alt="风元榜 "><br>风云榜</a></li>
+                        <li><a href=" "><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/bang.png?v=md5 " alt=" "><br>百度推广</a></li>
+                        <li><a href=" ">全部产品>></a></li>
+                    </ul>
+                </li>
+            </ul>
+
+</div><!--  class="flex-item12 "> -->
+
+
+
+
+
+</div>
+<div class="article ">
+<div class="middle ">
+<div class="baidu ">
+<div class="logo ">
+ <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png " alt=" " style="width:100%;height:100%; " id="baiduimg " ></div>
+        <p>
+         <br> 
+        </p>
+       </div>
+       <div class="search ">
+        <form action="https://www.baidu.com/s " method="get " target="_blank ">
+            <form class="bs-example bs-example-form " role="form ">
+             <div class="input-group ">
+                <input type="text " class="form-control " id="name " placeholder="请输入搜索内容 " >
+                
+                <span class="input-group-btn ">
+             <!--    <div class="btn-group "> -->
+                <button type="button " class="btn btn-default ">照片</button>
+               <!--  <ul class="dropdown-menu ">
+                <li><div class="form-group ">
+        <label for="inputfile ">文件输入</label>
+        <input type="file " id="inputfile "></div>
+        </li></ul>
+                </div> -->
+                <button type="submit " class="btn self-btn bg s_btn ">百度一下</button></span>
+                </div>
+         </form>       
+</div>
+ <p>
+         <br> 
+        </p>
+
+
+</div>
+<div class="left "></div>
+<div class="right "></div>
+
+</div>
+<div class="footer ">
+<div class="footer-inner ">
+
+<div class="dbar ">
+<img src="./img/baidu.jpg " alt=" ">
+</div>
+
+ <a href="https://www.baidu.com/cache/sethelp/index.html "><u>把百度设为首页</u></a>
+  
+  <a href="http://home.baidu.com/ "><u>关于百度</u></a>&nbsp;
+
+<a href="http://home.baidu.com/ "><u>about baidu</u></a>&nbsp;
+
+<a href="http://e.baidu.com/?refer=888 "><u>百度推广</u></a>&nbsp;
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+<div class="container1 ">
+        <div class="header ">
+            <div class=" flex-item11 ">
+                <ul class="nav nav-pills " " id="nav1 ">
+                    <li class="dropdown "><a class="dropdown-toggle " data-toggle="dropdown " href="# ">广州:15&#8451<font color="greenyellow "><strong>良</strong></font></a> </li>
+                    <li class="huanfu "><a href="https://www.baidu.com/# ">宝箱</a></li>
+                    <li class="huanfu "><a href="https://www.baidu.com/# ">换肤</a></li>
+                    <li class="huanfu "><a href="https://www.baidu.com/# ">消息</a></li>
+                </ul>
+            </div>
+            <!-- div item11 -->
+        </div>
+        <div class="article ">
+            <div class="middle ">
+                <div class="baidu ">
+                    <div class="logo ">
+                        <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png " style="width:100%;height:100%;" alt=" " id="baiduimg "></div>
+                    <p>
+                        <br>
+                    </p>
+                </div>
+                <div class="search ">
+                    <form action="https://www.baidu.com/s " method="get " target="_blank ">
+                        <form class="bs-example bs-example-form " role="form ">
+                            <div class="input-group ">
+                                <input type="text " class="form-control " id="name " placeholder="请输入搜索内容 ">
+                                <span class="input-group-btn ">
+             <!--    <div class="btn-group "> -->
+                <button type="button " class="btn btn-default ">照片</button>
+               <!--  <ul class="dropdown-menu ">
+                <li><div class="form-group ">
+        <label for="inputfile ">文件输入</label>
+        <input type="file " id="inputfile "></div>
+        </li></ul>
+                </div> -->
+                <button type="submit " class="btn self-btn bg s_btn ">百度一下</button></span>
+                            </div>
+                        </form>
+                </div>
+                <p>
+                    <br>
+                </p>
+                <div class="show1" style="width:100%;height:500px;">
+                    <div class="picture">
+                        <div class="picrure1"> <img src="./img/demo1.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"> <img src="./img/demo2.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"><img src="./img/demo3.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"><img src="./img/demo4.jpg" alt="" style="width:50%;height:80%;"></div>
+                    </div>
+                    <div class="picture">
+                        <div class="picrure1"> <img src="./img/demo1.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"> <img src="./img/demo2.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"><img src="./img/demo3.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"><img src="./img/demo4.jpg" alt="" style="width:50%;height:80%;"></div>
+                    </div>
+                    <div class="picture">
+                        <div class="picrure1"> <img src="./img/demo1.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"> <img src="./img/demo2.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"><img src="./img/demo3.jpg" alt="" style="width:50%;height:80%;"></div>
+                        <div class="picrure1"><img src="./img/demo4.jpg" alt="" style="width:50%;height:80%;"></div>
+                    </div>
+                </div>
+                <div class="left "></div>
+                <div class="right "></div>
+            </div>
+            <div class="footer ">
+                <div class="footer-inner ">
+                    <div class="dbar ">
+                        <img src="./img/baidu.jpg " alt=" " style="width:100%;height:100%;">
+                    </div>
+                    <a href="https://www.baidu.com/cache/sethelp/index.html "><u>把百度设为首页</u></a>
+                    <a href="http://home.baidu.com/ "><u>关于百度</u></a>&nbsp;
+                    <a href="http://home.baidu.com/ "><u>about baidu</u></a>&nbsp;
+                    <a href="http://e.baidu.com/?refer=888 "><u>百度推广</u></a>&nbsp;
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
