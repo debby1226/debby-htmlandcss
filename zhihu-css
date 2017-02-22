@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.header {
+    clear: both;
+    width: 100%;
+    height: 50px;
+}
+
+.article {
+    width: 100%;
+    height: 100%;
+}
+
+.left,
+.right {
+    width: 100px;
+    height: 800px;
+    float: left;
+    overflow: hidden;
+}
+
+.left {
+    height: 800px;
+    margin-left: -100%;
+}
+
+.right {
+    margin-left: -100px;
+}
+
+.middle {
+    float: left;
+    width: 100%;
+    height: 800px;
+}
+
+.footer {
+    width: 1000px;
+    height: 200px;
+    clear: both;
+}
+
+.title {
+    width: 300px;
+    height: 170px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btitle {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    font-size: 102px;
+    color: #0066FF;
+    font-weight: bold;
+    font-family: "华文楷体";
+}
+
+.stitle {
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.main {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice {
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.notice-tit {
+    height: 50px;
+    width: 300px;
+}
+
+.notice ul {
+    position: absolute;
+    width: 300px;
+    text-align: center;
+}
+
+.notice-tit li {
+    text-align: center;
+    width: 148px;
+    line-height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid blue;
+    font-size: 20px;
+    padding: 0 1px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px;
+}
+
+.notice-tit li a:hover {
+    color: black;
+    font-size: 25px;
+}
+
+.notice-tit li.select {
+    background: #FFF;
+    border-bottom: 1px solid blue;
+}
+
+.form-group {
+    margin: 5px 0;
+    height: 180px;
+    width: 298px;
+}
+
+.notice-con {
+    width: 300px;
+    height: 400px;
+}
+
+.zcbutton {
+    width: 100%;
+    height: 50px;
+}
+
+#button1 {
+    width: 300px;
+    background-color: white;
+}
+
+.click {
+    width: 300px;
+}
+
+.buttom {
+    height: 50px;
+    width: 2500px;
+}
+
+.download {
+    border: 1px solid blue;
+    text-align: center;
+    height: 50px;
+}
+
+#app {
+    font-size: 30px;
+    color: white;
+}
+
+#button1:hover {
+    background-color: blue;
+}
+
+.circle {
+    background: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    -webkit-animation: circlemove 5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes circlemove {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: yellow;
+        left: 800px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 800px;
+        top: 200px;
+    }
+    60% {
+        background-color: blue;
+        left: 800px;
+        top: 600px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    90% {
+        background-color: red;
+        left: 0px;
+        top: 500px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes circlemove
+/* Safari and Chrome */
+
+{
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: yellow;
+        left: 800px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 800px;
+        top: 200px;
+    }
+    60% {
+        background-color: blue;
+        left: 800px;
+        top: 600px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    90% {
+        background-color: red;
+        left: 0px;
+        top: 500px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@media screen and (min-width:382px) and (max-width:1982px) {
+    .container {
+        display: show;
+        visibility: visible;
+    }
+    .container1 {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:382px) {
+    .container1 {
+        display: show;
+        visibility: visible;
+    }
+    .container {
+        display: none;
+        visibility: hidden;
+    }
+    .header {
+        clear: both;
+        width: 100%;
+        height: 50px;
+    }
+    .article {
+        width: 100%;
+        height: 100%;
+    }
+    .middle {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+        clear: both;
+    }
+    .notice {
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+    }
+    .notice-con {
+        width: 100%;
+        height: 400px;
+    }
+    .zcbutton {
+        width: 100%;
+        height: 50px;
+    }
+    #button1 {
+        width100%;
+        background-color: white;
+    }
+    .click {
+        width: 100%;
+    }
+    .buttom {
+        height: 50px;
+        width: 250px;
+    }
+    .download {
+        border: 1px solid blue;
+        text-align: center;
+        height: 50px;
+    }
+    #app {
+        font-size: 30px;
+        color: white;
+    }
+    .form-group {
+        margin: 5px 0;
+        height: 180px;
+        width: 100%;
+    }
+}
