@@ -1,0 +1,598 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>web前端面试题目</title>
+<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/webtext.css"">
+</head>
+<body>
+<!-- html面试的部分 -->
+<div class="container">
+<h1><strong>WEB前端面试题目总结</strong></h1>
+<p class="stitle">HTML篇</p>
+<div class="html">
+<p class="question">一.DOCRYPE的作用<p>
+<p ><!DOCTYPE>声明处于文档的最前面的位置，位于HTML之前，告知浏览器文档使用HTML或HTML规范。该标签可声明三种DTD类型：</p>
+<ul>
+  <li><p>1.严谨版本</P> <p>严谨格式要求书写代码非常规范，不能有一点错误，在标签内部不可以出现css样式的定义。</p></li>
+    <li><p>2.过渡模式</p></p></li>
+    <li><p>3.框架模式</p></li>
+
+
+</ul>
+<p class="question">二.HTML与XHTML的区别</p>
+  <ul>
+        <li><p>1.XHTML必须被正确地嵌套</p></li>
+        <li><p>2.标签名必须用小写字母</p></li>
+         <li><p>3.XHTML必须被关闭</p></li>
+         <li><p>4.XHTML文档必须拥有根元素</p></li>
+
+	</ul>
+
+<p class="question">三.Quirks模式是什么？与standards模式有什么区别？</p>
+<ul>
+ <li>由于历史的原因，各个浏览器在对页面额渲染上存在差异，甚至同一个浏览器在不同版本中，对页面的渲染也不同。在W3C标准出台以前，浏览器在对页面的渲染上没有统一规范，产生了差异，这就是Quirks模式，也较怪异模式。如果网页没有DOCTYPE声明，则按照怪异模式解析。</li></ul>
+ <p>怪异模式与标准模式的区别？</p>
+ <ul>
+   <li> <P>在Standars mode中： 
+元素真正的宽度 = margin-left  +  border-left-width  +  padding-left  + width  +  padding-right  +  border-right-width  +  margin-right; </P>
+<p> 在Quirks mode中： 
+
+width则是元素的实际宽度，内容宽度 = width  -  (margin-left  +  margin-right  +  padding-left  +  padding-right  +  border-left-width  +  border-right-width) ;
+ </p>
+
+</li>
+<li>在Standards模式下，给<span>等行内元素设置wdith和height都不会生效，而在quirks模式下，则会生效;</li>
+<li>在standards模式下，一个元素的高度是由其包含的内容来决定的，如果父元素没有设置百分比的高度，子元素设置一个百分比的高度是无效的,以使元素水平居中，但在quirks模式下却会失效。</li>
+ </ul>
+<p class="question">四.div+css的布局较table布局有什么优点？</p>
+<ul>
+ <li>改版的时候更方便，只要改css文件；</li>
+ <li>页面加载速度更快，结构化清晰，页面显示简洁；</li>
+ <li>表现与结构相分离；</li>
+ <li>易于优化，搜索引擎更友好，排名更容易靠前。</li>
+</ul>
+<P class="question">五.img的alt和title有何异同？strong与em的异同？</P>
+ <p>a</p>
+ <ul>
+ <li>alt(alt text):为不能显示图像、窗体或applets的用户代理（UA），alt属性用来指定替换文字。替换文字的语言由lang属性指定。</li>
+ <li>title(tool tip):该属性为设置该属性的元素提供建议性的信息。</li>
+
+ </ul>
+ <p>b</p>
+ <ul>
+ <li>strong:粗体强调标签，强调，表示内容的重要性</li>
+<li>em:斜体强调标签，更强烈强调，表示内容的强调点</li>
+ </ul>
+<p class="quesition">六.语义化的理解。</p>
+<ul>
+<li>1.去掉或者丢失样式的时候能够让页面呈现出清晰的结构;</li>
+<li>2.有利于SEO;</li>
+<li>3.方便其他设备解析，以有意义的方式渲染网页；</li>
+<li>4.便于团队开发和维护。</li>
+
+</ul>
+
+<p class="question">七.HTML行内元素和块级元素分别有哪些？</p>
+<p> 行内元素是在同一条直线上，在同一行。</P>
+
+<P>常见的行内元素有：</P>
+<table>
+	<caption>
+		行内元素列表</caption>
+	<tbody>
+		<tr>
+			<td>
+				&lt;a&gt;</td>
+			<td>
+				标签可定义锚</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;abbr&gt;</td>
+			<td>
+				表示一个缩写形式</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;acronym&gt;</td>
+			<td>
+				定义只取首字母缩写</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;b&gt;</td>
+			<td>
+				字体加粗</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;bdo&gt;</td>
+			<td>
+				可覆盖默认的文本方向</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;big&gt;</td>
+			<td>
+				大号字体加粗</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;br&gt;</td>
+			<td>
+				换行</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;cite&gt;</td>
+			<td>
+				引用进行定义</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;code&gt;</td>
+			<td>
+				定义计算机代码文本</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;dfn&gt;</td>
+			<td>
+				定义一个定义项目</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;em&gt;</td>
+			<td>
+				定义为强调的内容</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;i&gt;</td>
+			<td>
+				斜体文本效果</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;img&gt;</td>
+			<td>
+				向网页中嵌入一幅图像</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;input&gt;</td>
+			<td>
+				输入框</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;kbd&gt;</td>
+			<td>
+				定义键盘文本</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;label&gt;</td>
+			<td>
+				标签为 input 元素定义标注（标记）</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;q&gt;</td>
+			<td>
+				定义短的引用</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;samp&gt;</td>
+			<td>
+				定义样本文本</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;select&gt;</td>
+			<td>
+				创建单选或多选菜单</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;small&gt;</td>
+			<td>
+				呈现小号字体效果</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;span&gt;</td>
+			<td>
+				组合文档中的行内元素</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;strong&gt;</td>
+			<td>
+				语气更强的强调的内容</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;sub&gt;</td>
+			<td>
+				定义下标文本</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;sup&gt;</td>
+			<td>
+				定义上标文本</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;textarea&gt;</td>
+			<td>
+				多行的文本输入控件</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;tt&gt;</td>
+			<td>
+				打字机或者等宽的文本效果</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;var&gt;</td>
+			<td>
+				定义变量</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<P>常见的块级元素有：</P>
+<table>
+	<caption>
+		块级元素列表</caption>
+	<tbody>
+		<tr>
+			<td>
+				&lt;address&gt;</td>
+			<td>
+				定义地址</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;caption&gt;</td>
+			<td>
+				定义表格标题</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;dd&gt;</td>
+			<td>
+				定义列表中定义条目</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;div&gt;</td>
+			<td>
+				定义文档中的分区或节</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;dl&gt;</td>
+			<td>
+				定义列表</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;dt&gt;</td>
+			<td>
+				定义列表中的项目</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;fieldset&gt;</td>
+			<td>
+				定义一个框架集</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;form&gt;</td>
+			<td>
+				创建 HTML 表单</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;h1&gt;</td>
+			<td>
+				定义最大的标题</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;h2&gt;</td>
+			<td>
+				定义副标题</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;h3&gt;</td>
+			<td>
+				定义标题</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;h4&gt;</td>
+			<td>
+				定义标题</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;h5&gt;</td>
+			<td>
+				定义标题</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;h6&gt;</td>
+			<td>
+				定义最小的标题</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;hr&gt;</td>
+			<td>
+				创建一条水平线</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;legend&gt;</td>
+			<td>
+				元素为 fieldset 元素定义标题</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;li&gt;</td>
+			<td>
+				标签定义列表项目</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;noframes&gt;</td>
+			<td>
+				为那些不支持框架的浏览器显示文本，于 frameset 元素内部</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;noscript&gt;</td>
+			<td>
+				定义在脚本未被执行时的替代内容</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;ol&gt;</td>
+			<td>
+				定义有序列表</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;ul&gt;</td>
+			<td>
+				定义无序列表</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;p&gt;</td>
+			<td>
+				标签定义段落</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;pre&gt;</td>
+			<td>
+				定义预格式化的文本</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;table&gt;</td>
+			<td>
+				标签定义 HTML 表格</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;tbody&gt;</td>
+			<td>
+				标签表格主体（正文）</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;td&gt;</td>
+			<td>
+				表格中的标准单元格</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;tfoot&gt;</td>
+			<td>
+				定义表格的页脚（脚注或表注）</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;th&gt;</td>
+			<td>
+				定义表头单元格</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;thead&gt;</td>
+			<td>
+				标签定义表格的表头</td>
+		</tr>
+		<tr>
+			<td>
+				&lt;tr&gt;</td>
+			<td>
+				定义表格中的行</td>
+		</tr>
+	</tbody>
+</table>
+
+<p class="question">八.网页制作的所用到的格式</p>
+<P>常见的图片合适分为2类：1.位图图片；2.矢量图片。</p>
+<p>位图图片</p>
+<ul>
+<li><b>JPEG格式：</b>体积较小，有损压缩，不适合用于颜色很少，具有大块颜色相近的区域的图片。</li>
+<li><b>GIF格式：</b>无损压缩，支持透明背景。</li>
+<li><b>	PNG格式：</b>无损压缩，支持透明背景。</li>
+<li><b>WebP格式：</b>2010年由谷歌开发，图片体积只有JPEG的2/3，通过较少的视觉牺牲较大的性能提升。</li>
+</ul>
+<p>矢量图片</p>
+<ul>
+<li><b>SVG格式</b>可通过文本编辑器创建和修改，可被搜索、索引、脚本化和压缩，可伸缩。</li>
+
+</ul>
+<p class="question">九.清除浮动的几种方法</p>
+<p>浮动可能会引起的几个问题：</p>
+<ul>
+<li>父元素的高度无法被撑开；</li>
+<li>与浮动元素同级的元素会紧跟其后；</li>
+<li>若非第一个元素浮动，前面的元素也要浮动。</li>
+<p>清除浮动的几种方法。</p>
+<li>格外标签法，clear:both</li>
+<li>使用after伪类：#parent:after{ content:".";
+    height:0;
+    visibility:hidden;
+    display:block;
+    clear:both;
+    }
+</li>
+
+<li>浮动外部元素；</li>
+<li>overflow设置为hidden或auto。</li>
+</ul>
+
+
+
+</div>
+</hr>
+<!-- css篇 -->
+<p class="stitle">CSS篇</P>
+<p class="question">一.有哪些方式可以对一个DOM设置它的CSS样式？</p>
+ <ul>
+ <li>外部样式：引入一个外部的css文件；</li>
+ <li>内部样式：将css代码放在&lt;head&gt;标签内部；</li>
+ <li>内联样式：将css样式直接定义在HTML标签内部。</li>
+ </ul>
+ <p class="question">二.css都有哪些选择器？优先级定义？</p>
+ <p>css中的选择器：</p>
+ <ul>
+<li>id选择器：#;</li>
+<li>类选择器：.</li>
+<li>元素选择器：html,div,p</li>
+<li>多类选择器</li>
+<li>子选择器</li>
+<li>后代选择器：选择直接出现在父层里的元素，div#container>ul</li>
+<li>群组选择器：适用于多个选择器的规则是一样的</li>
+<li>伪类选择器：分为链接伪类，只适用于链接和动态伪类，适用于所有元素。<p>链接伪类：a:link{text-decoration:underline;}</p></li>
+<p>选择器的优先级一般为：important>id>class>tag</p>
+<p>important比内联优先级高，但是内联比id高</p>
+
+ </ul>
+ <p class="question">三.display的属性有哪些？	</p>
+<ul>
+<li>
+block:像块级元素一样显示；
+</li>
+<li>inline:像行内元素一样显示；</li>
+<li>inlineitem:像行内元素一样显示，但是内容像块级元素一样显示；</li>
+<li>listitem:像块级元素一样显示，并添加样式列表标签。</li>
+</ul>
+<p class="question">四.position的值有哪些？</p>
+<ul>
+<li>absolute:生成绝对的定位，相对于static定位以外的第一个父类元素进行定位；</li>
+<li>fixed：相对与浏览器的绝对定位；</li>
+<li>relative:生成相对定位的元素，相对其在普通流中的位置进行定位；</li>
+<li>static:默认值，没有定位，元素出现在正常的流中。</li>
+
+
+
+
+</ul>
+
+<p class="question">五.css中有哪些新属性？</p>
+<ul>
+<li>实现圆角，阴影，对文字加特效，线性渐变，旋转；</li>
+<li>增加了更多的选择器；</li>
+<li>多背景，rgba;</li>
+<li>媒体查询，多栏布局。</li>
+<li>新增伪类：after,beforemenabled,disabled,checked</li>
+</ul>
+
+<p class="question">六.为什么要实现css样式初始化？</p>
+<p>因为浏览器的兼容问题，不同的浏览器对有些标签的默认值是不同的，不同的页面会出现差距。</p>
+<p>初始化css样式举例：</p>
+<ul>
+
+<li>*{padding:0,margin:0；}</li>
+<li>h1,h2,h3,h4,h5,h6{font-size:100%;},small{font-size:12px;}</li>
+
+
+
+</ul>
+<p class="question">七.如何垂直居中一个img?</p>
+<p>#container{
+display:table-cell;text-align:center;vertical-align:middle;}
+
+
+</p>
+
+
+
+<p class="question">八.水平垂直居中举例?</p>
+
+<p>div{
+position:relative;
+width:500px;
+height:300px;
+top:50%;
+left:50%;
+margin:-150px 0 0 -250px;
+
+
+
+}</p>
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
