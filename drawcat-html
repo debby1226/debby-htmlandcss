@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/dog.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="cat">
+            <div class="head">
+                <div class="eyes">
+                    <div class=" eye" id="lefte">
+                        <div class="black bleft"></div>
+                    </div>
+                    <div class="eye" id="righte">
+                        <div class="black bright">
+                        </div>
+                    </div>
+                </div>
+                <!-- eyes -->
+
+         <div class=" face">
+                <div class="white">
+                </div>
+                <!-- white -->
+                <div class="nose ">
+                    <div class="light ">
+                    </div>
+                </div>
+                <!-- nose -->
+                <div class="noseline ">
+                </div>
+                <div class="mouth "></div>
+            </div>
+            <!-- face -->
+        </div>
+        <!-- head -->
+        <div class="choker ">
+            <!--铃铛-->
+            <div class="bell ">
+                <div class="bell_line "></div>
+                <div class="bell_circle "></div>
+                <div class="bell_under "></div>
+                <div class="bell_light "></div>
+            </div>
+        </div>
+        <div class="bodys ">
+            <!--肚子-->
+            <div class="tbody "></div>
+            <div class="wraps ">
+                <!--口袋-->
+                <div class="pocket "></div>
+            </div>
+            <!--遮住一半口袋，使其呈现半圆-->
+            <div class="pocket_mask "></div>
+        </div>
+
+
+
+        <div class="hand_right " id="rhand ">
+            <!--手臂-->
+            <div class="arm " id="rarm "></div>
+            <!--手掌-->
+            <div class="circle " id="rcircle"></div>
+            <!--遮住手臂和身子交接处的线-->
+            <div class="arm_rewrite " id="r_rewrite"></div>
+        </div>
+        <!--左手-->
+        <div class="hand_left " id="lhand ">
+            <div class="arm" id="larm "></div>
+            <div class="circle " id="lcircle "></div>
+            <div class="arm_rewrite " id="l_rewrite "></div>
+        </div>
+        <!--脚-->
+        <div class="foot ">
+            <div class="leftf "></div>
+            <div class="rightf "></div>
+            <!--双脚之间的缝隙-->
+            <div class="foot_rewrite "></div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
