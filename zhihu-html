@@ -1,0 +1,162 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>知乎</title>
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/zhihu2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle"></div>
+        <div class="header"></div>
+        <div class="article">
+            <div class="middle">
+                <div class="title">
+                    <h1 class="btitle">知乎</h1>
+                    <p class="stitle">与世界分享你的知识、经验、见解</p>
+                </div>
+                <div class="main">
+                    <div class="notice">
+                        <div class="notice-tit" id="notice-tit">
+                            <ul class="nav nav-pills">
+                                <li class="select"><a href="#"> 注册</a></li>
+                                <li class="active"><a href="#">登录</a></li>
+                            </ul>
+                            </br>
+                        </div>
+                        <div id="notice-con1" class="notice-con">
+                            <div class="mod" id="mod1" style="display:block">
+                                <form action="https://www.baidu.com/s " method="get " target="_blank ">
+                                    <form class="bs-example bs-example-form " role="form ">
+                                        <div class="form-group" style="width:300px">
+                                           <label for="sr-only"></label>
+                                            <div class="input-group">
+                                            <div class="input-group-addon"></div>
+                                            <input required type="text" class="form-control" id="name" placeholder="姓名" readonly="true">
+                                            
+                                              </div>
+                                          
+                                            <label class="sr-only"></label>
+                                           
+                                            <input required type="text" class="form-control" id="mobilenumber" placeholder="手机号码或邮箱">
+                                          
+                                            
+                                            <label class="sr-only"></label>
+                                            <input required type="text" class="form-control" id="password" placeholder="密码">
+
+                                        </div>
+                                        <div class="zcbutton">
+                                            <button id="button1" class="btn btn-primary btn-lg" type="submit" width="250px"> <a href="page2.html">登录知乎</a></button>
+                                        </div>
+                                        <div class="click">
+                                            <p>点击「注册」按钮，即代表你同意《知乎协议》</p>
+                                        </div>
+                                    </form>
+                                </form>
+                            </div>
+                            <!-- mode -->
+                        </div>
+                        <!-- notice-con -->
+                        <div id="notice-con2" class="notice-con">
+                            <div class="mod" style="display:none">
+                                <form class="zcform" role="form" method="get" target="_blank" action="https://www.baidu.com/s ">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="mobilenumber" placeholder="手机号码或邮箱">
+                                        <input type="text" class="form-control" id="password" placeholder="密码">
+                                    </div>
+                                </form>
+                                <div class="zcbutton">
+                                    <button id="button1" class="btn btn-primary btn-lg" type="submit" width="250px">登录</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- notice-con -->
+                    </div>
+                    <!-- notice -->
+                </div>
+                <!-- main -->
+            </div>
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+
+    <div class="container1">
+        <div class="circle"></div>
+        <div class="header"></div>
+        <div class="article">
+            <div class="middle">
+                <div class="title">
+                    <h1 class="btitle">知乎</h1>
+                    <p class="stitle">与世界分享你的知识、经验、见解</p>
+                </div>
+                <div class="main">
+                
+                        <div id="notice-con1" class="notice-con">
+                            
+                                <form action="https://www.baidu.com/s " method="get " target="_blank ">
+                                    <form class="bs-example bs-example-form " role="form ">
+                                        <div class="form-group" style="width:300px">
+                                           <label for="sr-only"></label>
+                                            <div class="input-group">
+                                            <div class="input-group-addon"></div>
+                                            <input required type="text" class="form-control" id="name" placeholder="姓名" readonly="true">
+                                            
+                                              </div>
+                                          
+                                            <label class="sr-only"></label>
+                                           
+                                            <input required type="text" class="form-control" id="mobilenumber" placeholder="手机号码或邮箱">
+                                          
+                                            
+                                            <label class="sr-only"></label>
+                                            <input required type="text" class="form-control" id="password" placeholder="密码">
+
+                                        </div>
+                                        <div class="zcbutton">
+                                            <button id="button1" class="btn btn-primary btn-lg" type="submit" width="30%"> <a href="page2.html">登录知乎</a></button>
+                                        </div>
+                                        <div class="click">
+                                            <p>点击「注册」按钮，即代表你同意《知乎协议》</p>
+                                        </div>
+                                    </form>
+                                </form>
+                        
+                        </div>
+                        <!-- notice-con -->
+                        
+                    </div>
+                    <!-- notice -->
+                </div>
+                <!-- main -->
+            </div>
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
